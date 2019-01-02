@@ -3,6 +3,8 @@ package com.example.julian.syloperligas.ViewPagerFragments;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -66,21 +68,20 @@ public class Fragmento2 extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_fragmento2, container, false);
+    }
 
-        Spinner spinner;
-        View view = inflater.inflate(R.layout.fragment_fragmento2, container, false);
-        spinner = (Spinner) view.findViewById(R.id.spinner2);
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item,
-                getResources().getStringArray(R.array.spinner_fechas));
+        Spinner spinner = view.findViewById(R.id.spinner2);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, getResources().getStringArray(R.array.spinner_fechas));
         adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
-
-
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragmento2, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event

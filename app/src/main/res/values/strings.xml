@@ -12,6 +12,11 @@
     <string name="seleccionar">SELECCIONAR</string>
     <string name="todo">TODO</string>
 
+    <string-array name="spinner_divisiones">
+        <item>Primera División</item>
+        <item>Segunda División</item>
+    </string-array>
+
     <string-array name="spinner_fechas">
         <item>1</item>
         <item>2</item>
