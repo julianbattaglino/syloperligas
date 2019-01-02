@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation1"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+        android:title="Resultados" />
+
+    <item
+        android:id="@+id/navigation2"
+        android:icon="@drawable/ic_lock_black_24dp"
+        android:title="Fixture" />
+
+    <item
+        android:id="@+id/navigation3"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="Posiciones" />
+
+    <item
+        android:id="@+id/navigation4"
+        android:icon="@drawable/ic_remove_red_eye_black_24dp"
+        android:title="Goleadores" />
+
+
+    <item
+        android:id="@+id/navigation5"
+        android:icon="@drawable/ic_today_black_24dp"
+        android:title="Equipos" />
+
+</menu>
+
