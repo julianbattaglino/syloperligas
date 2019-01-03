@@ -22,6 +22,8 @@
             android:name=".MainActivity"
             android:label="@string/ViewPager" />
 
+        <activity android:name=".ActividadesClubes.Club1" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

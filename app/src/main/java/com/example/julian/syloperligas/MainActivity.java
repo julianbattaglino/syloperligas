@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity implements
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
 
-        //SPINNER QUE SE VISUALIZARIA EN EL FRAGMENT 2 DEL VIEWPAGER, COM STRING ARRAYS DE 15 ITEMS DE LAS FECHAS
-
 
         //AGREGAR ACCIONES A LOS 5 BOTONES DE LA NAVIGATION BOTTOM BAR
         BottomNavigationView BottomNavigationView = findViewById(R.id.navigationView);
@@ -50,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements
 
 
         //FLOATING ACTION BUTTON BACK, PARA VOLVER AL LAUNCHER
+
 
         FloatingActionButton back = findViewById(R.id.fab_back);
         back.setOnClickListener(new View.OnClickListener() {

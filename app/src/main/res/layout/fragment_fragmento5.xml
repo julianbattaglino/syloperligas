@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cardview_gradient"
     tools:context="com.example.julian.syloperligas.ViewPagerFragments.Fragmento5">
 
+    <ImageView
+        android:id="@+id/city"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/brc"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="0dp"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:src="@drawable/city" />
 
-</FrameLayout>
+
+    <ImageView
+        android:id="@+id/br"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/psg"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/br" />
+
+    <ImageView
+        android:id="@+id/brc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/germany"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/brc" />
+
+
+    <ImageView
+        android:id="@+id/psg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/brc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:src="@drawable/psg" />
+
+    <ImageView
+        android:id="@+id/united"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/psg"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/united" />
+
+    <ImageView
+        android:id="@+id/germany"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="133dp"
+        android:clickable="true"
+        android:src="@drawable/germany" />
+
+
+</RelativeLayout>

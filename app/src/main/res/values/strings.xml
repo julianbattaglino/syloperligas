@@ -11,6 +11,13 @@
     <string name="_5">5</string>
     <string name="seleccionar">SELECCIONAR</string>
     <string name="todo">TODO</string>
+    <string name="tv1">#</string>
+    <string name="tv2">+/-</string>
+    <string name="tvpj">PJ</string>
+    <string name="tvpts">PTS</string>
+    <string name="tvposiciones">POSICIONES</string>
+    <string name="powered_by">Powered By</string>
+    <string name="dharma">DHARMA</string>
 
     <string-array name="spinner_fechas">
         <item>1</item>
@@ -29,5 +36,24 @@
         <item>14</item>
         <item>15</item>
     </string-array>
+
+    <string-array name="spinner_ligas">
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+        <item>INSERTE LIGA CORRESPONDIENTE</item>
+    </string-array>
+
 
 </resources>

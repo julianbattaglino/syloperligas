@@ -21,10 +21,14 @@ public class Launcher extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.launcher);
 
+        Spinner spinner;
+        spinner = (Spinner) findViewById(R.id.spinner);
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        String[] letra = {"Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division", "Primera Division"};
-        spinner.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, letra));
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(Launcher.this, R.layout.support_simple_spinner_dropdown_item,
+                getResources().getStringArray(R.array.spinner_ligas));
+        adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
 
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

@@ -59,7 +59,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-1dp"
-        android:contentDescription="TODO"
         android:src="@drawable/rectangle19" />
 
     <android.support.design.widget.FloatingActionButton
@@ -69,6 +68,8 @@
         android:layout_above="@+id/navigationView"
         android:layout_alignParentEnd="true"
         android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="@android:color/white"
         app:srcCompat="@drawable/twotone_language_black_48" />
 
 

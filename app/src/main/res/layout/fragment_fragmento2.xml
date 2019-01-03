@@ -12,16 +12,16 @@
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="47dp"
-        app:cardBackgroundColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="70dp"
+        app:cardBackgroundColor="@color/colorcardview"
         app:cardCornerRadius="25dp">
 
         <Spinner
             android:id="@+id/spinner2"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content">
-
-        </Spinner>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:popupBackground="#587CBB" />
     </android.support.v7.widget.CardView>
 
 
