@@ -1,4 +1,15 @@
 package com.example.julian.syloperligas.ActividadesClubes;
 
-public class Club3 {
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.example.julian.syloperligas.R;
+
+public class Club3 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.club3);
+    }
 }

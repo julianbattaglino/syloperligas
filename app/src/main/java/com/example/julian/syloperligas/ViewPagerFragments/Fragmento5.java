@@ -13,6 +13,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.julian.syloperligas.ActividadesClubes.Club1;
+import com.example.julian.syloperligas.ActividadesClubes.Club2;
+import com.example.julian.syloperligas.ActividadesClubes.Club3;
+import com.example.julian.syloperligas.ActividadesClubes.Club4;
+import com.example.julian.syloperligas.ActividadesClubes.Club5;
+import com.example.julian.syloperligas.ActividadesClubes.Club6;
 import com.example.julian.syloperligas.R;
 
 /**
@@ -25,12 +30,11 @@ import com.example.julian.syloperligas.R;
  */
 public class Fragmento5 extends Fragment implements View.OnClickListener {
 
-    public ImageView city;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
+    public ImageView city;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -81,20 +85,68 @@ public class Fragmento5 extends Fragment implements View.OnClickListener {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        //***Aca Tengo Asignados Los 6 ImageButton de los equipos cargados hasta el momento***
 
+        ImageView germany = view.findViewById(R.id.germany);
+        ImageView barcelona = view.findViewById(R.id.brc);
         ImageView city = view.findViewById(R.id.city);
-        city.setOnClickListener(new View.OnClickListener() {
+        ImageView brazil = view.findViewById(R.id.br);
+        ImageView psg = view.findViewById(R.id.psg);
+        ImageView manchester = view.findViewById(R.id.united);
+
+        germany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getContext(), Club1.class);
                 startActivity(i);
+            }
+        });
 
+        barcelona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), Club2.class);
+                startActivity(i);
+            }
+        });
 
+        city.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), Club3.class);
+                startActivity(i);
+            }
+        });
+
+        brazil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), Club4.class);
+                startActivity(i);
+            }
+
+        });
+
+        psg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), Club5.class);
+                startActivity(i);
+            }
+        });
+
+        manchester.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), Club6.class);
+                startActivity(i);
             }
         });
 
 
     }
+    //***Aca Termina El onViewCreated (Para declarar algun objeto, hacerlo aca)***
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

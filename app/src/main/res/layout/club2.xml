@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardview_gradient">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/lilita_one"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="CLUB ACTUAL: BARCELONA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brc"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <ImageView
+        android:id="@+id/brc"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/brc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/expandableButton1"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/cardview_gradient"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton1"
+                android:paddingRight="10dp"
+                android:text="Texto1"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton1"
+                android:background="@drawable/cardview_gradient"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="bounce"
+                app:ael_orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/imageView3"
+                    android:src="@drawable/brc" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/brc" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView3"
+                    android:layout_toEndOf="@+id/imageView6"
+                    android:text="Since its introduction in 2014, Material Design has grown beyond a shared set of principles, to become an adaptable, ever-expanding design system of guidelines, tools, and code used in millions of apps around the globe. But design is never done. For the last several years, the Material team has been hard at work on new solutions for the common challenges faced by designers and developers—everything from the frustrations of manual redlining to a wish for easier customization and more pre-built code. The latest update to Material offers enhanced and expanded design guidance, new tools geared toward solving the lags between design and development, and components that support customization, to help you build beautiful digital experiences even faster. Read on for a rundown of the most powerful new Material features and how they can help you and your team."
+                    android:textColor="@android:color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+            <Button
+                android:id="@+id/expandableButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/expandableLayout1"
+                android:background="@drawable/cardview_gradient"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton2"
+                android:paddingRight="10dp"
+                android:text="Texto2"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton2"
+                android:background="@drawable/cardview_gradient"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="bounce"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Since its introduction in 2014, Material Design has grown beyond a shared set of principles, to become an adaptable, ever-expanding design system of guidelines, tools, and code used in millions of apps around the globe. But design is never done. For the last several years, the Material team has been hard at work on new solutions for the common challenges faced by designers and developers—everything from the frustrations of manual redlining to a wish for easier customization and more pre-built code. The latest update to Material offers enhanced and expanded design guidance, new tools geared toward solving the lags between design and development, and components that support customization, to help you build beautiful digital experiences even faster. Read on for a rundown of the most powerful new Material features and how they can help you and your team."
+                    android:textColor="@android:color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/expandableLayout2"
+                android:background="@drawable/cardview_gradient"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton3"
+                android:paddingRight="10dp"
+                android:text="Texto3"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton3"
+                android:background="@drawable/cardview_gradient"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="bounce"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Since its introduction in 2014, Material Design has grown beyond a shared set of principles, to become an adaptable, ever-expanding design system of guidelines, tools, and code used in millions of apps around the globe. But design is never done. For the last several years, the Material team has been hard at work on new solutions for the common challenges faced by designers and developers—everything from the frustrations of manual redlining to a wish for easier customization and more pre-built code. The latest update to Material offers enhanced and expanded design guidance, new tools geared toward solving the lags between design and development, and components that support customization, to help you build beautiful digital experiences even faster. Read on for a rundown of the most powerful new Material features and how they can help you and your team."
+                    android:textColor="@android:color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+            <Button
+                android:id="@+id/expandableButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/expandableLayout3"
+                android:background="@drawable/cardview_gradient"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton4"
+                android:paddingRight="10dp"
+                android:text="Texto4"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton4"
+                android:background="#90066da1"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="bounce"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Since its introduction in 2014, Material Design has grown beyond a shared set of principles, to become an adaptable, ever-expanding design system of guidelines, tools, and code used in millions of apps around the globe. But design is never done. For the last several years, the Material team has been hard at work on new solutions for the common challenges faced by designers and developers—everything from the frustrations of manual redlining to a wish for easier customization and more pre-built code. The latest update to Material offers enhanced and expanded design guidance, new tools geared toward solving the lags between design and development, and components that support customization, to help you build beautiful digital experiences even faster. Read on for a rundown of the most powerful new Material features and how they can help you and your team."
+                    android:textColor="@android:color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton5"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/expandableLayout4"
+                android:background="@drawable/cardview_gradient"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton5"
+                android:paddingRight="10dp"
+                android:text="Texto5"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton5"
+                android:background="@drawable/cardview_gradient"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="bounce"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Since its introduction in 2014, Material Design has grown beyond a shared set of principles, to become an adaptable, ever-expanding design system of guidelines, tools, and code used in millions of apps around the globe. But design is never done. For the last several years, the Material team has been hard at work on new solutions for the common challenges faced by designers and developers—everything from the frustrations of manual redlining to a wish for easier customization and more pre-built code. The latest update to Material offers enhanced and expanded design guidance, new tools geared toward solving the lags between design and development, and components that support customization, to help you build beautiful digital experiences even faster. Read on for a rundown of the most powerful new Material features and how they can help you and your team."
+                    android:textColor="@android:color/white" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+        </RelativeLayout>
+        >
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

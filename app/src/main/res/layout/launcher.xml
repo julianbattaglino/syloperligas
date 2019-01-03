@@ -22,6 +22,7 @@
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:gravity="center"
+            android:background="@drawable/shadows"
             android:popupBackground="#587CBB">
 
         </Spinner>
@@ -44,9 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/lilita_one"
             android:text="@string/seleccionar"
-            android:textColor="@android:color/background_light"
+            android:textColor="#cbc9dc"
             android:textStyle="bold" />
     </android.support.v7.widget.CardView>
 
