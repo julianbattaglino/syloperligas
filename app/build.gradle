@@ -32,6 +32,13 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 
     implementation 'com.github.aakira:expandable-layout:1.6.0@aar'
+    implementation 'com.tomer:fadingtextview:2.5'
+
+    implementation 'com.facebook.rebound:rebound:0.3.8'
+    implementation 'com.tumblr:backboard:0.1.0'
+
+
+
 
 
     testImplementation 'junit:junit:4.12'

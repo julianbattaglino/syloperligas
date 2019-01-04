@@ -1,10 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cardview_gradient"
-    tools:context="com.example.julian.syloperligas.ViewPagerFragments.Fragmento4">
+    tools:context="com.example.julian.syloperligas.ViewPagerFragments.Fragmento1">
 
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/fila1"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="34dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:src="@drawable/rectangle2" />
+
+
+    <ImageView
+        android:id="@+id/fila2"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/fila1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/cremita1" />
+
+    <ImageView
+        android:id="@+id/fila3"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="34dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:id="@+id/fila4"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/fila1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/cremita1" />
+
+    <ImageView
+        android:id="@+id/fila5"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:id="@+id/fila6"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/fila1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/cremita1" />
+
+    <ImageView
+        android:id="@+id/fila7"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/rectangle2" />
+
+    <ImageView
+        android:id="@+id/fila8"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/fila1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/cremita1" />
+
+    <ImageView
+        android:id="@+id/fila9"
+        android:layout_width="293dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="479dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/rectangle2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fila1"
+        android:layout_alignTop="@+id/textView1"
+        android:fontFamily="@font/advent_pro_bold"
+        android:text="@string/tv1"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="123dp"
+        android:fontFamily="@font/advent_pro_bold"
+        android:text="@string/tv2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:fontFamily="@font/advent_pro_bold"
+        android:text="@string/tvpj"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fila1"
+        android:layout_alignBottom="@+id/textView1"
+        android:fontFamily="@font/advent_pro_bold"
+        android:text="@string/tvpts"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="@string/tvposiciones"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

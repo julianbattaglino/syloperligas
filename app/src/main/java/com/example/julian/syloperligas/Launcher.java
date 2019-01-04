@@ -9,6 +9,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -21,8 +22,21 @@ public class Launcher extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.launcher);
 
+
         Spinner spinner;
-        spinner = (Spinner) findViewById(R.id.spinner);
+        spinner = findViewById(R.id.spinner);
+        ImageView syloperlogo = findViewById(R.id.syloperlogo);
+        CardView cardviewspinner = findViewById(R.id.cardviewspinner);
+        CardView cardviewseleccionar = findViewById(R.id.seleccionar);
+
+
+        AnimationUtils.enterTop(syloperlogo, 900);
+
+        AnimationUtils.enterRight(cardviewseleccionar, 1000);
+
+        AnimationUtils.enterLeft(cardviewspinner, 1100);
+
+
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(Launcher.this, R.layout.support_simple_spinner_dropdown_item,

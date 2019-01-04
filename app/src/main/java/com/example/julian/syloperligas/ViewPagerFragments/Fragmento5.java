@@ -18,6 +18,7 @@ import com.example.julian.syloperligas.ActividadesClubes.Club3;
 import com.example.julian.syloperligas.ActividadesClubes.Club4;
 import com.example.julian.syloperligas.ActividadesClubes.Club5;
 import com.example.julian.syloperligas.ActividadesClubes.Club6;
+import com.example.julian.syloperligas.AnimationUtils;
 import com.example.julian.syloperligas.R;
 
 /**
@@ -34,7 +35,6 @@ public class Fragmento5 extends Fragment implements View.OnClickListener {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    public ImageView city;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -94,6 +94,13 @@ public class Fragmento5 extends Fragment implements View.OnClickListener {
         ImageView psg = view.findViewById(R.id.psg);
         ImageView manchester = view.findViewById(R.id.united);
 
+        AnimationUtils.enterTop(germany, 1000);
+        AnimationUtils.enterTop(barcelona, 1100);
+        AnimationUtils.enterTop(city, 1200);
+        AnimationUtils.enterTop(brazil, 1200);
+        AnimationUtils.enterTop(psg, 1200);
+        AnimationUtils.enterTop(manchester, 1200);
+
         germany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -142,7 +149,6 @@ public class Fragmento5 extends Fragment implements View.OnClickListener {
                 startActivity(i);
             }
         });
-
 
     }
     //***Aca Termina El onViewCreated (Para declarar algun objeto, hacerlo aca)***
