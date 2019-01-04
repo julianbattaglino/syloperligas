@@ -95,11 +95,35 @@ public class Fragmento5 extends Fragment implements View.OnClickListener {
         ImageView manchester = view.findViewById(R.id.united);
 
         AnimationUtils.enterTop(germany, 1000);
-        AnimationUtils.enterTop(barcelona, 1100);
-        AnimationUtils.enterTop(city, 1200);
-        AnimationUtils.enterTop(brazil, 1200);
-        AnimationUtils.enterTop(psg, 1200);
-        AnimationUtils.enterTop(manchester, 1200);
+        AnimationUtils.landMe(germany, 1500);
+        AnimationUtils.landMeX(germany, 2000);
+        AnimationUtils.landMeY(germany, 2500);
+
+        AnimationUtils.enterTop(barcelona, 1000);
+        AnimationUtils.landMe(barcelona, 1500);
+        AnimationUtils.landMeX(barcelona, 2000);
+        AnimationUtils.landMeY(barcelona, 2500);
+
+        AnimationUtils.enterTop(city, 1000);
+        AnimationUtils.landMe(city, 1500);
+        AnimationUtils.landMeX(city, 2000);
+        AnimationUtils.landMeY(city, 2500);
+
+        AnimationUtils.enterTop(brazil, 1000);
+        AnimationUtils.landMe(brazil, 1500);
+        AnimationUtils.landMeX(brazil, 2000);
+        AnimationUtils.landMeY(brazil, 2500);
+
+        AnimationUtils.enterTop(psg, 1000);
+        AnimationUtils.landMe(psg, 1500);
+        AnimationUtils.landMeX(psg, 2000);
+        AnimationUtils.landMeY(psg, 2500);
+
+        AnimationUtils.enterTop(manchester, 1000);
+        AnimationUtils.landMe(manchester, 1500);
+        AnimationUtils.landMeX(manchester, 2000);
+        AnimationUtils.landMeY(manchester, 2500);
+
 
         germany.setOnClickListener(new View.OnClickListener() {
             @Override

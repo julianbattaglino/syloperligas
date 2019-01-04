@@ -31,6 +31,12 @@ public class Launcher extends AppCompatActivity {
 
 
         AnimationUtils.enterTop(syloperlogo, 900);
+        AnimationUtils.landMe(syloperlogo, 1500);
+        AnimationUtils.landMeX(syloperlogo, 2000);
+        AnimationUtils.landMeY(syloperlogo, 2500);
+
+
+
 
         AnimationUtils.enterRight(cardviewseleccionar, 1000);
 
