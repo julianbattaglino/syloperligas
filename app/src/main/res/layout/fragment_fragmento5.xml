@@ -59,5 +59,17 @@
         android:layout_centerVertical="true"
         android:src="@drawable/br" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Equipos Animaciones"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
 
 </RelativeLayout>

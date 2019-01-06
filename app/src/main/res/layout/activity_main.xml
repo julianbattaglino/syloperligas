@@ -52,20 +52,11 @@
         app:menu="@menu/navigation" />
 
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-1dp"
-        android:src="@drawable/rectangle19" />
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/navigationView"
+        android:layout_below="@+id/imageView18"
         android:layout_alignParentEnd="true"
         android:clickable="true"
         android:focusable="true"

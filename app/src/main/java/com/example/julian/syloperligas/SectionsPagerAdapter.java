@@ -9,6 +9,7 @@ import com.example.julian.syloperligas.ViewPagerFragments.Fragmento2;
 import com.example.julian.syloperligas.ViewPagerFragments.Fragmento3;
 import com.example.julian.syloperligas.ViewPagerFragments.Fragmento4;
 import com.example.julian.syloperligas.ViewPagerFragments.Fragmento5;
+import com.example.julian.syloperligas.ViewPagerFragments.Fragmento6;
 
 /**
  * Created by Santiago Battaglino.
@@ -32,6 +33,9 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return new Fragmento4();
             case 4:
                 return new Fragmento5();
+            case 5:
+                return new Fragmento6();
+
             default:
                 return new Fragmento1();
         }
@@ -41,7 +45,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 5;
+        return 6;
     }
 }
 

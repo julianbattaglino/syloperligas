@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardview_gradient"
+    tools:context=".ViewPagerFragments.Fragmento6">
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="67dp"
+        app:bmb_buttonEnum="simpleCircle"
+        app:bmb_buttonPlaceEnum="buttonPlace_sc_9_1"
+        app:bmb_highlightedColor="@android:color/holo_blue_bright"
+        app:bmb_normalColor="@android:color/holo_blue_light"
+        app:bmb_piecePlaceEnum="piecePlace_dot_9_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Equipos Botones Boom"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

@@ -15,13 +15,15 @@ import com.example.julian.syloperligas.ViewPagerFragments.Fragmento2;
 import com.example.julian.syloperligas.ViewPagerFragments.Fragmento3;
 import com.example.julian.syloperligas.ViewPagerFragments.Fragmento4;
 import com.example.julian.syloperligas.ViewPagerFragments.Fragmento5;
+import com.example.julian.syloperligas.ViewPagerFragments.Fragmento6;
 
 public class MainActivity extends AppCompatActivity implements
         Fragmento1.OnFragmentInteractionListener,
         Fragmento2.OnFragmentInteractionListener,
         Fragmento3.OnFragmentInteractionListener,
         Fragmento4.OnFragmentInteractionListener,
-        Fragmento5.OnFragmentInteractionListener {
+        Fragmento5.OnFragmentInteractionListener,
+        Fragmento6.OnFragmentInteractionListener {
 
 
     Spinner spinner2;

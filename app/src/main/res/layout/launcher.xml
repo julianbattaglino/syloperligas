@@ -46,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/roboto_condensed_bold"
             android:text="@string/seleccionar"
             android:textColor="#cbc9dc"
             android:textStyle="bold" />
@@ -83,10 +84,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="35dp"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="@string/powered_by"
-        android:textStyle="italic" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView5"
@@ -96,10 +98,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="27dp"
-        android:fontFamily="@font/lilita_one"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="@string/dharma"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold|italic" />
 
 
 </RelativeLayout>

@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/fila1"
         android:layout_alignTop="@+id/textView1"
-        android:fontFamily="@font/advent_pro_bold"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="@string/tv1"
         android:textSize="16sp" />
 
@@ -123,7 +123,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="123dp"
-        android:fontFamily="@font/advent_pro_bold"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="@string/tv2"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -135,7 +135,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="71dp"
-        android:fontFamily="@font/advent_pro_bold"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="@string/tvpj"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -146,7 +146,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/fila1"
         android:layout_alignBottom="@+id/textView1"
-        android:fontFamily="@font/advent_pro_bold"
+        android:fontFamily="@font/roboto_condensed_bold"
         android:text="@string/tvpts"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -159,7 +159,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
-        android:text="@string/tvposiciones"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Goleadores Sample"
         android:textSize="24sp"
         android:textStyle="bold" />
 
