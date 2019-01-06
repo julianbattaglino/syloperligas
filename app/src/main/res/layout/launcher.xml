@@ -27,30 +27,8 @@
             android:popupBackground="#587CBB">
 
         </Spinner>
-
     </android.support.v7.widget.CardView>
 
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/seleccionar"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="127dp"
-        app:cardBackgroundColor="@color/colorcardview"
-        app:cardCornerRadius="25dp">
-
-        <TextView
-            android:id="@+id/tvseleccionar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/roboto_condensed_bold"
-            android:text="@string/seleccionar"
-            android:textColor="#cbc9dc"
-            android:textStyle="bold" />
-    </android.support.v7.widget.CardView>
 
 
     <ImageView
@@ -63,20 +41,7 @@
         android:contentDescription="TODO"
         app:srcCompat="@drawable/unnamed" />
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigationView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
-        app:itemBackground="@color/colorPrimary"
-        app:itemIconTint="@android:color/background_light"
-        app:itemTextColor="@android:color/background_light"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/navigation" />
+
 
     <TextView
         android:id="@+id/powered"
@@ -91,7 +56,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/dharma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

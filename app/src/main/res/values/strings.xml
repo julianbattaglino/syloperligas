@@ -43,23 +43,13 @@
         <item>15</item>
     </string-array>
 
-    <string-array name="spinner_ligas">
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
-        <item>INSERTE LIGA CORRESPONDIENTE</item>
+    //Spinner Launcher
+    <string-array name="spinner_divisiones">
+        <item>Primera División</item>
+        <item>Segunda División</item>
     </string-array>
+
+
     //BOOM BUTTONS STRINGS
     <string name="simple_circle_button_example">Simple Circle Button Example</string>
     <string name="text_inside_circle_button_example">Text Inside Circle Button Example</string>
